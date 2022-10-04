@@ -1,17 +1,21 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    box-sizing: border-box;
 }
+
 body{
-    overflow: auto;
     background-color: #4a536b;
+    overflow: auto;
+    color: #b99f2b;
 }
 a {
     text-decoration: none;
     color: white;
+    text-shadow: 4px 4px 3px black;
 }
 footer {
+    border: solid;
     width: 100%;
+    height: 1100%;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -21,6 +25,15 @@ footer {
     backdrop-filter: blur(10px);
     background : rgba(0, 0, 0, 0.4);
 }
+form {
+    border-radius: 60px;
+    background: linear-gradient(145deg, #434b60, #4f5972);
+    box-shadow:  31px 31px 63px #2c3240,-31px -31px 63px #687496;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
 #me_pictures {
     display: flex;
     flex-direction: row;
@@ -39,7 +52,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    height: 60px;
+    height: 25px;
     width: 75%;
     color: white;
     align-items: center;
@@ -124,7 +137,7 @@ footer {
 }
 .cv {
     display: flex;
-    width: 120px;
+    width: 150px;
     justify-content: space-between;
 }
 .ico {
@@ -143,4 +156,69 @@ footer {
 .titles {
     color: #b99f2b;
     font-size: xx-large;
+}
+
+/* Formulaire */ 
+
+.title_form {
+    width: fit-content;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 3px black;
+}
+form .separation {
+    width: 450px;
+    height: 2px;
+    margin: auto;
+    background-color: #747cdf;
+}
+.names {
+    padding-right: 0px;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+}
+.message {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.subject {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn {
+    color: black;
+}
+#area {
+    resize: none;
+}
+.lien {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+.lien a {
+    color: #ff9a8d;
+}
+.lien:hover {
+    border: outset;
+    border-radius: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    box-shadow: 4px 4px 3px black;
+}
+.index {
+    margin: 0;
 }
