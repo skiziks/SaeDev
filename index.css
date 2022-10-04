@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow: auto;
+    background-color: #4a536b;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    background : rgba(0, 0, 0, 0.4);
+}
+#me_pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+#home {
+    text-decoration: none;
+    color:white;
+}
+#home:hover {
+    color: #b99f2b;
+    font-style: italic;
+}
+#nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    height: 60px;
+    width: 75%;
+    color: white;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #4a536b;
+}
+.hello {
+    font-size: 20px;
+    padding-right: 30px;
+    font-family:Helvetica, Arial;
+}
+.name_img {
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/ordi.jpg);
+    height: 500px;
+    width: 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #b99f2b;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.presentation:nth-child(2) {
+    flex: 2;
+    flex-direction: column;
+}
+#nav:hover {
+    color: #b99f2b;
+    font-style: italic;
+}
+.presentation {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.liens {
+    color: #aed6dc;
+    text-decoration: none;
+}
+.coords, .cv{
+    border: solid;
+    border-radius: 20px;
+    padding: 6px;
+    color: #aed6dc;
+}
+.coords:hover, .cv:hover {
+    border-radius: 20px;
+    padding: 6px;
+    background-color: #aed6dc;
+    color: black;
+}
+.liens:hover {
+    color: black;
+}
+.name_right {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #b99f2b;
+}
+.what_I_do {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #b99f2b;
+}
+.rs {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40px;
+}
+.cv {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+.ico {
+    width: 25px;
+    height: 20px;
+    color: #aed6dc;
+}
+.coords_footer {
+    height: 50px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.titles {
+    color: #b99f2b;
+    font-size: xx-large;
+}

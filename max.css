@@ -1,0 +1,24 @@
+#me_pictures {
+    display: block;
+}
+#nav_bar {
+    width: 95%;
+    padding-right: 20px;
+}
+.image {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello {
+    width: 145px;
+    padding-right: 0px;
+}
+.name_img {
+    width: 320px;
+    padding-right: 0px;
+}
+.test {
+    width: 90px;
+}
