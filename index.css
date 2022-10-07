@@ -1,11 +1,8 @@
-* {
-    box-sizing: border-box;
-}
 
 body{
     background-color: #4a536b;
     overflow: auto;
-    color: #b99f2b;
+    color: #f1c70b;
 }
 .index {
     margin: 0;
@@ -66,7 +63,7 @@ form .separation {
 }
 .foot {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 200px;
     margin: auto;
     margin-top: 20px;
@@ -83,14 +80,13 @@ form .separation {
     margin-top: 20px;
 }
 .lien a {
-    color: #b99f2b;
+    color: #f1c70b;
 }
 .lien:hover {
     border: outset;
     border-radius: 10px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
     box-shadow: 4px 4px 3px black;
 }
 
@@ -124,13 +120,11 @@ footer {
     border: inset;
     border-radius: 20px;
     padding: 6px;
-    color: #968123;
+    color: #f1c70b;
 }
 .mail:hover, .cv:hover {
     border-radius: 59px;
     background: #4a536b;
-    box-shadow:  -8px 8px 16px #3a4153,
-                8px -8px 16px #5a6583;
     padding: 6px;
     color: white;
 }
@@ -141,7 +135,7 @@ footer {
 }
 .cv {
     display: flex;
-    width: 150px;
+    width: fit-content;
     justify-content: space-between;
 }
 .coords_footer {
@@ -181,14 +175,14 @@ footer {
     color: white;
 }
 .visit {
-    border:inset #b99f2b;
+    border:inset #f1c70b;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
     position: absolute;
     margin-top: 300PX;
-    width: 222px;
+    width: 270px;
     height: 50px;
     align-items: center;
     font-size: larger;
@@ -210,7 +204,8 @@ footer {
     flex-direction: column;
     height: fit-content;
     width: fit-content;
-    font-size: 40px;
+    margin-bottom: 50px;
+    font-size: 50px;
 }
 .hello {
     margin-bottom: 1px;
@@ -229,9 +224,8 @@ footer {
 }
 
 strong {
-    color: #b99f2b;
+    color: #f1c70b;
 }
-
 
 
 
@@ -257,10 +251,10 @@ strong {
     align-items: center;
 }
 .nav_symbole {
-    color: #b99f2b;
+    color: #f1c70b;
 }
 .nav:hover {
-    color: #b99f2b;
+    color: #f1c70b;
     font-style: italic;
 }
 
@@ -270,11 +264,57 @@ strong {
 
 
 
-/* Corps de la page */
+/* Mastered Software section */
 
+#about {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
+    color: white;
+}
+.computer_with_title {
+    width: 600px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.computer_with_title p {
+    transform: translateY(40px);
+    padding-left: 10px;
+}
+.computer_with_title h1 {
+    color: #f1c70b;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: xx-large;
+    font-family: Garamond, Arial, Helvetica, sans-serif;
+}
+.computer_with_title img {
+    width: 800px;
+    height: 500px;
+    transform: translateX(-200px);
+}
 .titles {
-    color: #b99f2b;
+    color: #f1c70b;
     font-size: xx-large;
 }
-
-
+.vs_code_ico, .unreal_ico, .premiere_ico {
+    height: 50px;
+    width: 50px;
+    float: left;
+    padding-right: 20px;
+}
+.name_software {
+    color: #f1c70b;
+}
+.text_computer {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 110px;
+}
+.text_computer p {
+    width: 600px;
+}
