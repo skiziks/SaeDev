@@ -194,7 +194,7 @@ footer {
     box-shadow: inset -12px 12px 30px #968123,
                 inset 12px -12px 30px #dcbd33;
 }
-#me_pictures {
+#Texte_homePage {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
@@ -210,7 +210,6 @@ footer {
 .hello {
     margin-bottom: 1px;
     height: fit-content;
-    font-family:Helvetica, Arial;
 }
 .i_am {
     
@@ -257,6 +256,9 @@ strong {
     color: #f1c70b;
     font-style: italic;
 }
+.nav {
+    font-size: 1.3em;
+}
 
 
 
@@ -280,41 +282,46 @@ strong {
     flex-direction: column;
 }
 .computer_with_title p {
-    transform: translateY(40px);
     padding-left: 10px;
 }
 .computer_with_title h1 {
     color: #f1c70b;
     padding-top: 50px;
     padding-left: 50px;
-    font-size: xx-large;
+    font-size: 3em;
     font-family: Garamond, Arial, Helvetica, sans-serif;
 }
 .computer_with_title img {
     width: 800px;
-    height: 500px;
-    transform: translateX(-200px);
+    height: 650px;
+    padding-bottom: 50px;
 }
 .titles {
     color: #f1c70b;
     font-size: xx-large;
 }
 .vs_code_ico, .unreal_ico, .premiere_ico {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     float: left;
-    padding-right: 20px;
+    padding-right: 50px;
+}
+.unreal_ico {
+    height: 110px;
 }
 .name_software {
     color: #f1c70b;
 }
 .text_computer {
     height: 500px;
+    width: 50%;
+    margin-left: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 110px;
+    margin-top: 250px;
 }
 .text_computer p {
-    width: 600px;
+    width: 100%;
+    font-size: xx-large;
 }
