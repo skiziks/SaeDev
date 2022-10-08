@@ -22,7 +22,7 @@ a {
 
 /* Formulaire */ 
 
-form {
+.formulaire {
     border-radius: 60px;
     background: linear-gradient(145deg, #434b60, #4f5972);
     box-shadow:  31px 31px 63px #2c3240,-31px -31px 63px #687496;
@@ -38,7 +38,7 @@ form {
     margin-bottom: 20px;
     text-shadow: 4px 4px 3px black;
 }
-form .separation {
+.formulaire .separation {
     width: 450px;
     height: 2px;
     margin: auto;
