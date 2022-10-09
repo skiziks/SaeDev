@@ -99,7 +99,7 @@ a {
 
 footer {
     width: 100%;
-    height: 1100%;
+    height: fit-content;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -108,8 +108,11 @@ footer {
     bottom: 0;
     backdrop-filter: blur(10px);
     background : rgba(0, 0, 0, 0.4);
+    margin-top: 100px;
 }
-
+footer h1 {
+    padding-top: 10px;
+}
 .liens_footer {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -186,7 +189,7 @@ footer {
     height: 50px;
     align-items: center;
     font-size: larger;
-    border-radius: 30px;
+    border-radius: 65px;
 }
 .visit:hover {
     border-radius: 65px;
@@ -361,6 +364,17 @@ h1 {
 .img_school img {
     width: 200px;
     height: 200px;
+    margin-bottom: 20px;
+    border: inset;
+    border-radius: 50px;
+    background: #4a536b;
+    box-shadow:  -20px -20px 60px #353c4d,
+                20px 20px 60px #5f6a89;
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+.img_school img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
 }
 .text_school {
     display: flex;
@@ -376,6 +390,7 @@ h1 {
 
 
 /*experience section */
+
 
 
 .container {
@@ -410,6 +425,7 @@ h1 {
 .card:hover {
     transform: translateY(-20px);
     transition: 0.4s ease-out;
+    cursor: pointer;
 }
 
 .card:hover ~ .card {
@@ -461,4 +477,122 @@ h1 {
     top: 120px;
     left: calc(50% - 80px);
     letter-spacing: 2px;
+}
+
+
+  /* skills and works page */
+
+    /*Far From Home*/
+
+
+.title_skills {
+    width: fit-content;
+}
+h2 {
+    color: white;
+    margin-left: 20px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 100px;
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 100px;
+    background: #4a536b;
+    box-shadow:  20px 20px 60px #272c39,
+                -20px -20px 60px #6d7a9d;
+    color: white;
+}
+.image_skill {
+    height: fit-content;
+    width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.image_skill img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 100px;
+}
+.sector {
+    height: fit-content;
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.sector p {
+    width: fit-content;
+    margin: auto;
+    font-size: x-large;
+}
+.name {
+    height: fit-content;
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.name p {
+    width: fit-content;
+    margin: auto;
+    font-size: x-large;
+}
+.FFH {
+    background: url(images/background_game.gif);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.descriptionFFH {
+    color: white;
+    background-color: #4a536b;
+    opacity: 98%;
+    width: 80%;
+    margin: auto;
+    border-radius: 50px;
+    display: flex;
+}
+.FFH_div1 {
+    width: 51%;
+    padding-left: 50px;
+    padding-right: 100px;
+    font-size: large;
+    height: fit-content;
+    margin: auto;
+}
+.FFH_div2 {
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    padding-left: 30px;
+}
+.FFH_div2 p {
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+.important {
+    color: #dcbd33;
+}
+h3 {
+    color: #dcbd33;
+}
+.images_FFH {
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+.images_FFH img {
+    border: inset;
+    width: 700px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 60px;
 }
