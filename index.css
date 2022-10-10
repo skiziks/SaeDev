@@ -108,7 +108,7 @@ footer {
     bottom: 0;
     backdrop-filter: blur(10px);
     background : rgba(0, 0, 0, 0.4);
-    margin-top: 100px;
+    margin-top: 40px;
 }
 footer h1 {
     padding-top: 10px;
@@ -154,7 +154,20 @@ footer h1 {
     right: 0;
     margin-right: 40px;
 }
-
+.next_page {
+    width: fit-content;
+    margin-left: 10px;
+    font-size: large;
+    color: white;
+}
+.next_page:hover {
+    color: #f1c70b;
+    font-style: italic;
+}
+p a:hover {
+    color: #f1c70b;
+    font-style: italic;
+}
 
 
 
@@ -264,14 +277,32 @@ strong {
 }
 
 
+/*About Section */
 
 
+#about {
+    width: 100%;
+    margin: auto;
+}
+#about p {
+    font-size: x-large;
+    padding-left: 75px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+}
 
 
 
 /* Mastered Software section */
 
-#about {
+
+
+
+#software {
     display: flex;
     flex-direction: row;
     height: fit-content;
@@ -286,11 +317,12 @@ strong {
 }
 .computer_with_title p {
     padding-left: 10px;
+    font-size: large;
 }
 h1 {
     color: #f1c70b;
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 100px;
     font-size: 3em;
     font-family: Garamond, Arial, Helvetica, sans-serif;
 }
@@ -325,8 +357,9 @@ h1 {
     margin-top: 250px;
 }
 .text_computer p {
-    width: 100%;
+    width: 90%;
     font-size: xx-large;
+    overflow: hidden;
 }
 
 
@@ -485,6 +518,9 @@ h1 {
     /*Far From Home*/
 
 
+.skills_pages {
+    margin: 0;
+}
 .title_skills {
     width: fit-content;
 }
@@ -507,8 +543,6 @@ h2 {
     margin-bottom: 50px;
     border-radius: 100px;
     background: #4a536b;
-    box-shadow:  20px 20px 60px #272c39,
-                -20px -20px 60px #6d7a9d;
     color: white;
 }
 .image_skill {
@@ -546,9 +580,13 @@ h2 {
     font-size: x-large;
 }
 .FFH {
-    background: url(images/background_game.gif);
+    background: url(images/background_FFH.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
     padding-bottom: 50px;
     padding-top: 50px;
+    border-radius: 10px;
 }
 .descriptionFFH {
     color: white;
