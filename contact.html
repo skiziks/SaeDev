@@ -9,19 +9,29 @@
     <script src="https://kit.fontawesome.com/f8d1e558ff.js" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
-<body>
+<body id="contact_page">
+    <header>
+        <nav>
+            <ul id="nav_bar">
+                <li><a class="nav" href="index.html"><span class="nav_symbole">01.</span> About Me</a></li>
+                <li><a class="nav" href="skills_works.html"><span class="nav_symbole">02.</span> Skills & Works</a></li>
+                <li><a class="nav" href="career.html"><span class="nav_symbole">03.</span> Career</a></li>
+                <li><a class="nav" href="contact.html"><span class="nav_symbole">04.</span> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <section class="section_form">
         <h1 class="title_form">Personal information register</h1>
         <form class="formulaire" action="traitement.php" method="post">
             <div class="names">
-                <p class="first_name"><label for="first_name">First Name : </label><input type="text" name="first_name" placeholder="Stephen" required autofocus></p>
-                <p class="last_name"><label for="last_name">Last Name : </label><input type="text" name="last_name" placeholder="Harding" required autofocus></p>
+                <p class="first_name"><label>First Name : </label><input type="text" name="first_name" placeholder="Stephen"></p>
+                <p class="last_name"><label>Last Name : </label><input type="text" name="last_name" placeholder="Harding"></p>
             
-                <p class="mail_form"><label for="mail">Mail : </label><input type="text" name="mail" placeholder="exemple@gmail.com" required autofocus></p>
+                <p class="mail_form"><label>Mail : </label><input type="text" name="mail" placeholder="exemple@gmail.com" ></p>
             </div>
             <div class="separation"></div>
             <div class="message">
-                <p class="subject"><label for="subject">Subject : </label><input type="text" name="subject" placeholder="Text..." required autofocus></p>
+                <p class="subject"><label>Subject : </label><input type="text" name="subject" placeholder="Text..."></p>
                 <p class="subject">Your message :</p>
                 <textarea name="area" id="area" cols="50" rows="10" placeholder="Hello..."></textarea>
             </div>
@@ -33,13 +43,26 @@
         </form>
         <p class="lien"><a href="index.html">Retour à l'acceuil </a></p>
     </section>
+
+    <div class="circles">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        
+        <div class="circle-multiple">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+    </div>
+
+
     <footer>
-        <h1>Lerond Nicolas</h1>
+        <h2>Lerond Nicolas</h2>
         <div class="coords_footer">
             <div class="mail">
                 <a href="mailto:lerond.nicolas@gmail.com"> <p class="liens_footer">Contact Me Here !</p></a>
             </div>
-            <a href="https://www.linkedin.com/in/nicolas-lerond-392315170/"><img class="rs" src="icones/linkedin.png" alt="linkedin"> <br></a>
+            <a href="https://www.linkedin.com/in/nicolas-lerond-392315170/" target="_blank"><img class="rs" src="icones/linkedin.png" alt="linkedin"> <br></a>
             <div class="cv">  
                 <a class="liens_footer" href="externes/cv.pdf" download> Download CV <i class="fa-solid fa-download"></i></a>
                 

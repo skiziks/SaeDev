@@ -1,4 +1,3 @@
-
 body{
     background-color: #4a536b;
     overflow: auto;
@@ -22,6 +21,10 @@ a {
 
 /* Formulaire */ 
 
+
+#contact_page {
+    margin: 0;
+}
 .formulaire {
     border-radius: 60px;
     background: linear-gradient(145deg, #434b60, #4f5972);
@@ -110,8 +113,10 @@ footer {
     background : rgba(0, 0, 0, 0.4);
     margin-top: 40px;
 }
-footer h1 {
+footer h2 {
     padding-top: 10px;
+    padding-left: 0;
+    justify-content: center;
 }
 .liens_footer {
     margin-top: 0px;
@@ -253,6 +258,10 @@ strong {
 
 /* Nav */
 
+
+header {
+    background-color: #17141d;
+}
 #nav_bar {
     padding-left: 0px;
     margin: auto;
@@ -373,13 +382,13 @@ h1 {
 
 
 .school {
-    width: 70%;
+    width: 90%;
     margin: auto;
     color: white;
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.school h1 {
+.school h2 {
     height: 20%;
 }
 .school p {
@@ -520,28 +529,30 @@ h1 {
 
 .skills_pages {
     margin: 0;
+    background: url(images/background_FFH.png);
+    background-color: #4a536b;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .title_skills {
     width: fit-content;
 }
 h2 {
-    color: white;
-    margin-left: 20px;
-    width: fit-content;
-    margin: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    color: #f1c70b;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 3em;
+    font-family: Garamond, Arial, Helvetica, sans-serif;
 }
-#game {
+#presentation_skill {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     border-radius: 100px;
-    width: 1000px;
+    width: 70%;
     height: 150px;
     margin: auto;
     margin-bottom: 50px;
-    border-radius: 100px;
     background: #4a536b;
     color: white;
 }
@@ -579,16 +590,13 @@ h2 {
     margin: auto;
     font-size: x-large;
 }
-.FFH {
-    background: url(images/background_FFH.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+.works_section {
     width: 100%;
     padding-bottom: 50px;
     padding-top: 50px;
     border-radius: 10px;
 }
-.descriptionFFH {
+.description_skill {
     color: white;
     background-color: #4a536b;
     opacity: 98%;
@@ -597,7 +605,7 @@ h2 {
     border-radius: 50px;
     display: flex;
 }
-.FFH_div1 {
+.skill_div1 {
     width: 51%;
     padding-left: 50px;
     padding-right: 100px;
@@ -605,13 +613,13 @@ h2 {
     height: fit-content;
     margin: auto;
 }
-.FFH_div2 {
+.skill_div2 {
     width: 50%;
     height: fit-content;
     margin: auto;
     padding-left: 30px;
 }
-.FFH_div2 p {
+.skill_div2 p {
     padding-top: 1px;
     padding-bottom: 2px;
 }
@@ -633,4 +641,47 @@ h3 {
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 60px;
+}
+.images_Nature {
+    width: 95%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.images_Nature img{
+    border: inset;
+    width: fit-content;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 60px;
+    height: fit-content;
+}
+.links_social_media {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.yt {
+    width: 1000px;
+}
+.tik {
+    margin-top: 100px;
+}
+.sofware_use {
+    font-size: 50px;
+}
+
+
+
+
+
+    /*Career Page*/
+
+
+#career {
+    margin: 0;
 }
