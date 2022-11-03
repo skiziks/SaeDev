@@ -1,5 +1,5 @@
 body{
-    background-color: #4a536b;
+    background-color: #264673;
     overflow: auto;
     color: #f1c70b;
 }
@@ -19,170 +19,7 @@ a {
 
 
 
-/* Formulaire */ 
-
-
-#contact_page {
-    margin: 0;
-}
-.formulaire {
-    border-radius: 60px;
-    background: linear-gradient(145deg, #434b60, #4f5972);
-    box-shadow:  31px 31px 63px #2c3240,-31px -31px 63px #687496;
-    margin: auto;
-    width: 500px;
-    height: 500px;
-}
-
-.title_form {
-    width: fit-content;
-    margin: auto;
-    margin-top: 80px;
-    margin-bottom: 20px;
-    text-shadow: 4px 4px 3px black;
-}
-.formulaire .separation {
-    width: 450px;
-    height: 2px;
-    margin: auto;
-    background-color: #747cdf;
-}
-.names {
-    padding-right: 0px;
-    width: fit-content;
-    padding: 20px;
-    margin: auto;
-}
-.message {
-    width: fit-content;
-    margin: auto;
-    padding-bottom: 10px;
-}
-.subject {
-    width: fit-content;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.foot {
-    display: flex;
-    justify-content: space-around;
-    width: 200px;
-    margin: auto;
-    margin-top: 20px;
-}
-.btn {
-    color: black;
-}
-#area {
-    resize: none;
-}
-.lien {
-    width: fit-content;
-    margin: auto;
-    margin-top: 20px;
-}
-.lien a {
-    color: #f1c70b;
-}
-.lien:hover {
-    border: outset;
-    border-radius: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    box-shadow: 4px 4px 3px black;
-}
-
-
-
-
-
-
-/*Footer*/
-
-footer {
-    width: 100%;
-    height: fit-content;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    position: relative;
-    bottom: 0;
-    backdrop-filter: blur(10px);
-    background : rgba(0, 0, 0, 0.4);
-    margin-top: 40px;
-}
-footer h2 {
-    padding-top: 10px;
-    padding-left: 0;
-    justify-content: center;
-}
-.liens_footer {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: white;
-    text-decoration: none;
-}
-.mail, .cv{
-    border: inset;
-    border-radius: 20px;
-    padding: 6px;
-    color: #f1c70b;
-}
-.mail:hover, .cv:hover {
-    border-radius: 59px;
-    background: #4a536b;
-    padding: 6px;
-    color: white;
-}
-.rs {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 40px;
-}
-.cv {
-    display: flex;
-    width: fit-content;
-    justify-content: space-between;
-}
-.coords_footer {
-    height: 50px;
-    width: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-.back_top {
-    position: absolute;
-    right: 0;
-    margin-right: 40px;
-}
-.next_page {
-    width: fit-content;
-    margin-left: 10px;
-    font-size: large;
-    color: white;
-}
-.next_page:hover {
-    color: #f1c70b;
-    font-style: italic;
-}
-p a:hover {
-    color: #f1c70b;
-    font-style: italic;
-}
-
-
-
-
-
-
-
-
-
-/* Section de l'image */
+/* Image with short presentation */
 
 .image {
     display: flex;
@@ -211,7 +48,7 @@ p a:hover {
 }
 .visit:hover {
     border-radius: 65px;
-    background: #4a536b;
+    background: #264673;
     box-shadow: inset -12px 12px 30px #968123,
                 inset 12px -12px 30px #dcbd33;
 }
@@ -260,7 +97,7 @@ strong {
 
 
 header {
-    background-color: #17141d;
+    background-color: #1A2F4C;
 }
 #nav_bar {
     padding-left: 0px;
@@ -373,9 +210,6 @@ h1 {
 
 
 
-
-
-
 /* school Section */
 
 
@@ -388,46 +222,99 @@ h1 {
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.school h2 {
-    height: 20%;
-}
-.school p {
-    height: 30%;
-    font-size: xx-large;
+.school h3 {
     width: fit-content;
     margin: auto;
+    font-size: x-large;
+    border: solid;
+    border-radius: 20px;
+    padding: 10px;
 }
-.img_school {
+.elements_schools {
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 50%;
+    font-size: x-large;
 }
-.img_school img {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 20px;
+.schools_left_div {
+    width: 50%;
+}
+.schools_left_div ul {
+    list-style-type: none;
+    width: 80%;
+    height: 79%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.schools_right_div {
+    width: 35%;
+}
+h4 {
+    color: #dcbd33;
+    text-decoration: underline ;
+}
+.schools_right_div a {
     border: inset;
     border-radius: 50px;
-    background: #4a536b;
-    box-shadow:  -20px -20px 60px #353c4d,
-                20px 20px 60px #5f6a89;
-    transition: width 1s, height 1s, background-color 1s, transform 1s;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: fit-content;
+    height: fit-content;
+    font-size: large;
 }
-.img_school img:hover {
-    transform: scale(1.5);
-    cursor: pointer;
+.schools_right_div a:hover {
+    background-color: #968123;
 }
-.text_school {
+.futur_career_links_style {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.school_div {
+    border-radius: 57px;
+    box-shadow:  -21px -21px 73px #0f1c2e, 21px 21px 73px #3d70b8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+/*Skills Section */
+    
+
+.skills {
+    height: fit-content;
+    width: 95%;
+    margin: auto;
+    color: white;
+    font-size: x-large;
+}
+.skills_div {
     display: flex;
     flex-direction: row;
+    border-radius: 57px;
+    box-shadow:  -21px -21px 73px #0f1c2e, 21px 21px 73px #3d70b8;
+    padding-bottom: 20px;
+}
+.skills ul {
+    list-style-type: circle;
+}
+.dev_adobe, .crea_lan_other {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    height: 50%;
 }
-.text_school p{
-    font-size: large;
-    padding-left: 50px;
-}
+    
 
 
 
@@ -524,13 +411,13 @@ h1 {
 
   /* skills and works page */
 
-    /*Far From Home*/
+
 
 
 .skills_pages {
     margin: 0;
     background: url(images/background_FFH.png);
-    background-color: #4a536b;
+    background-color: #264673;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -553,7 +440,7 @@ h2 {
     height: 150px;
     margin: auto;
     margin-bottom: 50px;
-    background: #4a536b;
+    background: #264673;
     color: white;
 }
 .image_skill {
@@ -595,18 +482,19 @@ h2 {
     padding-bottom: 50px;
     padding-top: 50px;
     border-radius: 10px;
+    font-size: large;
 }
 .description_skill {
     color: white;
-    background-color: #4a536b;
+    background-color: #264673;
     opacity: 98%;
-    width: 80%;
+    width: fit-content;
     margin: auto;
     border-radius: 50px;
     display: flex;
 }
 .skill_div1 {
-    width: 51%;
+    width: fit-content;
     padding-left: 50px;
     padding-right: 100px;
     font-size: large;
@@ -663,17 +551,38 @@ h3 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.links_social_media img {
+    height: 300px;
+    width: 300px;
+    align-items: center;
 }
 .yt {
     width: 1000px;
 }
-.tik {
-    margin-top: 100px;
-}
 .sofware_use {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    color: white;
     font-size: 50px;
 }
+.sofware_use p {
+    margin-left: 20px;
+    margin-right:20px;
+    margin-right: 50px;
+    height: 100%;
+    align-items: center;
+}
+.sofware_use img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
 
 
 
@@ -682,6 +591,266 @@ h3 {
     /*Career Page*/
 
 
+
+
+
 #career {
     margin: 0;
+    color: white;
+}
+#career h1 {
+    width: fit-content;
+    margin: auto;
+    padding: 0;
+}
+.career h2 {
+    font-size: x-large;
+}
+.career {
+    width: 90%;
+    margin: auto;
+}
+.job_description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.job_description p {
+    width: 55%;
+    height: fit-content;
+    font-size: x-large;
+}
+.job_description img {
+    width: 200px;
+    height: fit-content;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+.job_description a:hover {
+    scale: 1.3;
+    transition: ease-in-out 0.5s;
+}
+.left_arrow:hover {
+    transform: rotate(360deg);
+}
+.right_arrow:hover {
+    transform: scaleX(-1) rotate(360deg);
+}
+.right_arrow {
+    transform: scaleX(-1);
+}
+.career_right_text {
+    text-align: right;
+}
+#full_stack_div {
+    background: url(images/fond_code.png);
+    border-radius: 50px;
+}
+#cameraman_div {
+    background: url(images/fond_cadreur.png);
+    border-radius: 50px;
+}
+#designer_div {
+    background: url(images/fond_designer.png);
+    border-radius: 50px;
+}
+#developer_div {
+    background: url(images/fond_developer.png);
+    border-radius: 50px;
+}
+
+
+
+
+/* Formulaire */ 
+
+
+
+
+#contact_page {
+    margin: 0;
+    font-size: large;
+}
+.formulaire {
+    border-radius: 57px;
+    box-shadow:  -21px -21px 73px #0f1c2e, 21px 21px 73px #3d70b8;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    padding-bottom: 20px;
+}
+
+.title_form {
+    width: fit-content;
+    margin: auto;
+    padding: 0;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 3px black;
+}
+.formulaire .separation {
+    width: 450px;
+    height: 2px;
+    margin: auto;
+    background-color: #747cdf;
+}
+.names {
+    padding-right: 0px;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+}
+.message {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.subject {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.foot {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn {
+    color: #315D9B;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+}
+.btn:hover {
+    background-color: #315D9B;
+    color: white;
+    scale: 1.2;
+    transition: ease-in-out 0.5s;
+}
+#area {
+    resize: none;
+}
+.lien {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+.lien a {
+    color: #f1c70b;
+}
+.lien:hover {
+    border: outset;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 4px 4px 3px black;
+}
+
+
+
+
+/*Footer*/
+
+
+
+
+
+footer {
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    background : rgba(0, 0, 0, 0.4);
+    margin-top: 40px;
+}
+footer h2 {
+    padding-top: 10px;
+    padding-left: 0;
+    justify-content: center;
+}
+.liens_footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    text-decoration: none;
+}
+.mail, .cv{
+    border: inset;
+    border-radius: 20px;
+    padding: 6px;
+    color: #f1c70b;
+}
+.mail:hover, .cv:hover {
+    border-radius: 59px;
+    background: #264673;
+    padding: 6px;
+    color: white;
+}
+.rs {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40px;
+}
+.cv {
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+}
+.coords_footer {
+    height: 50px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.back_top {
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+}
+.next_page {
+    width: fit-content;
+    margin-left: 10px;
+    font-size: large;
+    color: white;
+}
+.next_page:hover {
+    color: #f1c70b;
+    font-style: italic;
+}
+p a:hover {
+    color: #f1c70b;
+    font-style: italic;
+}
+
+
+
+
+        /*PHP page*/
+
+
+
+
+#php_page {
+    background-color: #264673;
+}
+.php_form {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    overflow: auto;
+    padding: 20px;
+    border-radius: 57px;
+    box-shadow:  -21px -21px 73px #0f1c2e, 21px 21px 73px #3d70b8;
 }
