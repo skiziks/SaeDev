@@ -431,7 +431,7 @@ h2 {
     font-size: 3em;
     font-family: Garamond, Arial, Helvetica, sans-serif;
 }
-#presentation_skill {
+.presentation_skill {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
